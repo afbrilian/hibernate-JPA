@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.hibernatejpa.model.Contact;
 
-public interface ContactDao {
+public interface ContactService {
 	List<Contact> findAll();
 	List<Contact> findAllWithDetail();
 	Contact findById(Long id);
